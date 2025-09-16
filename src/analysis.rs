@@ -1,66 +1,196 @@
-use regex::Regex;
+use crate::allowlist::{should_ignore_path, should_ignore_value, PATTERNS};
+use crate::utils::{fetch_live_or_wayback, save_bytes, sanitize_filename, write_str_to_file};
+
+use anyhow::Result as AnyResult;
 use reqwest::Client;
 use select::{document::Document, predicate::Predicate};
 use sha2::{Digest, Sha256};
-use std::{
-    fs::{self, File},
-    path::{Path, PathBuf},
-    sync::Arc,
-};
+use std::{collections::HashSet, fs::File, path::Path, sync::Arc};
 use tokio::sync::Mutex;
 use url::Url;
 
-use crate::allowlist::{should_ignore_path, should_ignore_value, PATTERNS};
-use crate::utils::write_str_to_file;
+// какие текстовые форматы дополнительно скачивать из HTML
+const INTERESTING_EXTS: &[&str] = &[
+    "js", "php", "txt", "json", "xml", "csv", "ini", "conf", "config",
+    "env", "yaml", "yml", "log", "bak", "old", "sql",
+];
 
+// спец-файлы по имени
+const INTERESTING_NAMES: &[&str] = &["robots.txt", "sitemap.xml"];
 
-
-// JS, парсинг и анализ 
-pub async fn save_js_scripts(
-    page_url: &str,
+pub async fn process_single_url(
     client: &Client,
-    jsscripts_dir: &Path,
+    url: &str,
+    paths: &impl PathsLike,
     info_file: &Arc<Mutex<File>>,
-) -> Result<(), Box<dyn std::error::Error>> {
-    let body = client
-        .get(page_url)
-        .send()
-        .await?
-        .error_for_status()?
-        .text()
-        .await?;
-    let document = Document::from(body.as_str());
-    let selector = select::predicate::Name("script").and(select::predicate::Attr("src", ()));
+) -> AnyResult<()> {
+    // 1) попробуем получить сам ресурс (live → wayback)
+    if let Ok((bytes, used_url, _is_wayback)) = fetch_live_or_wayback(client, url).await {
+        // определим «тип» грубо по расширению / content sniffing по URL
+        let is_html = url_looks_html(url);
 
-    for element in document.find(selector) {
-        if let Some(src) = element.attr("src") {
-            if let Some(script_url) = join_url(page_url, src) {
-                // фильтр шумных путей
-                if should_ignore_path(&script_url) || should_ignore_path(src) {
-                    eprintln!("skip by allowlist: {}", script_url);
+        // сохраняем оригинальную «страницу/файл»
+        let filename = sanitize_filename(&used_url);
+        let (save_dir, ext) = if is_html {
+            (paths.assets_dir(), "html")
+        } else {
+            (paths.assets_dir(), guess_ext_from_url(url).unwrap_or("bin"))
+        };
+        let save_path = save_dir.join(format!("{filename}.{ext}"));
+        save_bytes(&save_path, &bytes)?;
+        // анализ содержимого на секреты (как текст)
+        if let Ok(text) = String::from_utf8(bytes.clone()) {
+            analyze_info(&text, url, info_file).await?;
+        }
+
+        // 2) если это HTML — парсим и вытягиваем «интересные» ссылки
+        if is_html {
+            let body = String::from_utf8_lossy(&bytes).to_string();
+            let mut to_fetch = extract_interesting_links(&body, url);
+            // добавим robots / sitemap для корня
+            if let Some(root) = root_of(url) {
+                for name in INTERESTING_NAMES {
+                    to_fetch.insert(format!("{}/{}", root.trim_end_matches('/'), name));
+                }
+            }
+
+            // скачиваем с дедупом и фильтрами
+            let mut seen = HashSet::new();
+            for u in to_fetch.into_iter() {
+                if !seen.insert(u.clone()) {
+                    continue;
+                }
+                if should_ignore_path(&u) {
+                    eprintln!("skip by allowlist (path): {}", u);
                     continue;
                 }
 
-                match client.get(&script_url).send().await {
-                    Ok(resp) => {
-                        if let Ok(ok) = resp.error_for_status() {
-                            let script_content = ok.text().await?;
-                            let path = make_script_path(jsscripts_dir, &script_url, src)?;
-                            write_str_to_file(&path, &script_content)?;
-                            println!("JavaScript сохранён: {}", path.display());
+                match fetch_live_or_wayback(client, &u).await {
+                    Ok((data, used_u, _wb)) => {
+                        // где сохраняем
+                        let (dir, base) = if url_has_ext(&u, "js") {
+                            (paths.jsscripts_dir(), make_script_filename(&u))
+                        } else {
+                            (paths.assets_dir(), sanitize_filename(&used_u))
+                        };
+                        let ext = guess_ext_from_url(&u).unwrap_or("txt");
+                        let path = dir.join(format!("{}.{}", base, ext));
+                        save_bytes(&path, &data)?;
+                        println!("Сохранён ресурс: {}", path.display());
 
-                            analyze_info(&script_content, &script_url, info_file).await?;
+                        if let Ok(text) = String::from_utf8(data) {
+                            analyze_info(&text, &u, info_file).await?;
                         }
                     }
-                    Err(e) => {
-                        eprintln!("Не удалось скачать {}: {}", script_url, e);
-                    }
+                    Err(e) => eprintln!("Не удалось скачать {}: {}", u, e),
+                }
+            }
+
+            // 3) Скриншот только «живого» HTML (для wayback тоже можно, но оставим как есть)
+            if let Err(e) = crate::utils::make_screenshot_task(url, paths.screenshots_dir()).await {
+                eprintln!("Ошибка скриншота {}: {}", url, e);
+            }
+        }
+    } else {
+        eprintln!("Не получилось получить ни live, ни wayback: {}", url);
+    }
+
+    Ok(())
+}
+
+// --- Вспомогательные для process_single_url ---
+
+pub trait PathsLike: Send + Sync {
+    fn screenshots_dir(&self) -> &Path;
+    fn jsscripts_dir(&self) -> &Path;
+    fn assets_dir(&self) -> &Path;
+}
+
+
+fn url_looks_html(u: &str) -> bool {
+    if let Some(ext) = guess_ext_from_url(u) {
+        return matches!(ext, "html" | "htm" | "shtml" | "php" | "asp" | "aspx" | "jsp");
+    }
+    // без расширения — считаем HTML
+    true
+}
+
+fn guess_ext_from_url(u: &str) -> Option<&'static str> {
+    Url::parse(u).ok()?.path().rsplit('/').next().and_then(|name| {
+        if let Some((_, ext)) = name.rsplit_once('.') {
+            let e = ext.to_ascii_lowercase();
+            // нормализуем известные
+            match e.as_str() {
+                "js" => Some("js"),
+                "php" => Some("php"),
+                "txt" => Some("txt"),
+                "json" => Some("json"),
+                "xml" => Some("xml"),
+                "csv" => Some("csv"),
+                "ini" => Some("ini"),
+                "conf" | "config" => Some("conf"),
+                "env" => Some("env"),
+                "yaml" => Some("yaml"),
+                "yml" => Some("yml"),
+                "log" => Some("log"),
+                "bak" => Some("bak"),
+                "old" => Some("old"),
+                "sql" => Some("sql"),
+                "html" => Some("html"),
+                "htm" => Some("htm"),
+                "asp" => Some("asp"),
+                "aspx" => Some("aspx"),
+                "jsp" => Some("jsp"),
+                _ => Some(Box::leak(e.into_boxed_str())),
+            }
+        } else {
+            None
+        }
+    })
+}
+
+fn url_has_ext(u: &str, ext: &str) -> bool {
+    guess_ext_from_url(u).map(|e| e.eq_ignore_ascii_case(ext)).unwrap_or(false)
+}
+
+fn root_of(u: &str) -> Option<String> {
+    let p = Url::parse(u).ok()?;
+    Some(format!("{}://{}", p.scheme(), p.host_str()?))
+}
+
+fn extract_interesting_links(body_html: &str, base_url: &str) -> HashSet<String> {
+    let doc = Document::from(body_html);
+    let mut out = HashSet::new();
+
+    // script[src]
+    for el in doc.find(select::predicate::Name("script").and(select::predicate::Attr("src", ()))) {
+        if let Some(src) = el.attr("src") {
+            if let Some(u) = join_url(base_url, src) {
+                if url_has_any_interesting_ext(&u) && !should_ignore_path(&u) {
+                    out.insert(u);
+                }
+            }
+        }
+    }
+    // a[href], link[href]
+    for el in doc.find(select::predicate::Or(select::predicate::Name("a"), select::predicate::Name("link")).and(select::predicate::Attr("href", ()))) {
+        if let Some(href) = el.attr("href") {
+            if let Some(u) = join_url(base_url, href) {
+                if url_has_any_interesting_ext(&u) && !should_ignore_path(&u) {
+                    out.insert(u);
                 }
             }
         }
     }
 
-    Ok(())
+    out
+}
+
+fn url_has_any_interesting_ext(u: &str) -> bool {
+    if let Some(ext) = guess_ext_from_url(u) {
+        return INTERESTING_EXTS.iter().any(|e| e.eq_ignore_ascii_case(ext));
+    }
+    false
 }
 
 pub fn join_url(base: &str, href: &str) -> Option<String> {
@@ -73,29 +203,22 @@ pub fn join_url(base: &str, href: &str) -> Option<String> {
     base.join(href).ok().map(|u| u.to_string())
 }
 
-pub fn make_script_path(
-    dir: &Path,
-    full_url: &str,
-    original_src: &str,
-) -> Result<PathBuf, Box<dyn std::error::Error>> {
+fn make_script_filename(full_url: &str) -> String {
+    // короткое, читаемое имя для js
     let mut hasher = Sha256::new();
     hasher.update(full_url.as_bytes());
     let hex = format!("{:x}", hasher.finalize());
     let short = &hex[..8];
 
-    let (domain, name_part) = {
-        let parsed = Url::parse(full_url).ok();
-        let domain = parsed.as_ref().and_then(|u| u.host_str()).unwrap_or("unknown");
-        let name = original_src.split('/').last().unwrap_or("script.js");
-        (domain.to_string(), name.to_string())
-    };
-
-    let folder = dir.join(domain);
-    fs::create_dir_all(&folder)?;
-    Ok(folder.join(format!("{}_{}", short, sanitize_basename(&name_part))))
+    let name = Url::parse(full_url)
+        .ok()
+        .and_then(|u| u.path_segments()?.last().map(|s| s.to_string()))
+        .unwrap_or_else(|| "script.js".to_string());
+    let base = sanitize_basename(&name);
+    format!("{}_{}", short, base)
 }
 
-pub fn sanitize_basename(s: &str) -> String {
+fn sanitize_basename(s: &str) -> String {
     let mut out = s.replace(|c: char| r#"/\:?*"<>| "#.contains(c), "_");
     if out.len() > 80 {
         out.truncate(80);
@@ -103,7 +226,8 @@ pub fn sanitize_basename(s: &str) -> String {
     out
 }
 
-//  Энтропия / анализ секретов 
+// -------- Энтропия / анализ секретов --------
+
 pub fn shannon_entropy(s: &str) -> (f64, f64, usize) {
     use std::collections::HashMap;
 
@@ -133,7 +257,7 @@ pub async fn analyze_info(
     content: &str,
     url: &str,
     file_mutex: &Arc<Mutex<File>>,
-) -> Result<(), Box<dyn std::error::Error>> {
+) -> AnyResult<()> {
     if should_ignore_path(url) {
         return Ok(());
     }
@@ -143,7 +267,7 @@ pub async fn analyze_info(
 
     for spec in PATTERNS.iter() {
         for cap in spec.re.captures_iter(content) {
-            // извлекаем значение секрета
+            // выбираем значение секрета
             let matched = cap.get(0).map(|m| m.as_str()).unwrap_or_default();
             let value = match spec.secret_group {
                 Some(g) => cap.get(g),

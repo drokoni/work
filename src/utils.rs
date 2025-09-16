@@ -1,13 +1,13 @@
 use anyhow::{anyhow, Result as AnyResult};
 use headless_chrome::Browser;
 use regex::Regex;
-use reqwest::Client;
+use reqwest::{Client, StatusCode};
 use sha2::{Digest, Sha256};
 use std::{
     collections::HashSet,
     fs::{self, File},
     io::Write,
-    path::Path,
+    path::{Path, PathBuf},
 };
 use tokio::{
     fs::File as AsyncFile,
@@ -82,7 +82,7 @@ pub async fn read_urls(file_path: &Path) -> Result<Vec<String>, Box<dyn std::err
     Ok(urls)
 }
 
-// -------- HTTP / навигация --------
+// -------- HTTP / доступность --------
 
 pub async fn check_url_200(url: &str, client: &Client) -> bool {
     match timeout(Duration::from_secs(8), client.head(url).send()).await {
@@ -97,9 +97,72 @@ pub async fn check_url_200(url: &str, client: &Client) -> bool {
         .map_or(false, |r| r.status().is_success())
 }
 
+/// Пытается скачать ресурс "как есть". Если 4xx/5xx/таймаут — берёт последний снапшот из Wayback.
+/// Возвращает (bytes, использованный_url, is_wayback).
+pub async fn fetch_live_or_wayback(
+    client: &Client,
+    original_url: &str,
+) -> AnyResult<(Vec<u8>, String, bool)> {
+    // 1) live
+    if let Ok(resp) = timeout(Duration::from_secs(15), client.get(original_url).send()).await {
+        if let Ok(ok) = resp {
+            if ok.status().is_success() {
+                let data = ok.bytes().await.map_err(|e| anyhow!(e.to_string()))?;
+                return Ok((data.to_vec(), original_url.to_string(), false));
+            }
+        }
+    }
+
+    // 2) wayback CDX — берём последний успешный снимок 200 для этого URL
+    let cdx_resp = client
+        .get("https://web.archive.org/cdx/search/cdx")
+        .query(&[
+            ("url", original_url.to_string()),
+            ("output", "json".to_string()),
+            ("filter", "statuscode:200".to_string()),
+            ("limit", "1".to_string()),
+            ("from", "20000101".to_string()),
+            ("to", "20991231".to_string()),
+            ("sort", "descending".to_string()),
+        ])
+        .send()
+        .await
+        .map_err(|e| anyhow!("Wayback CDX error: {e}"))?;
+
+    if cdx_resp.status() != StatusCode::OK {
+        return Err(anyhow!(
+            "Wayback CDX status {} for {}",
+            cdx_resp.status(),
+            original_url
+        ));
+    }
+
+    let json_val: serde_json::Value =
+        serde_json::from_slice(&cdx_resp.bytes().await?).map_err(|e| anyhow!(e.to_string()))?;
+    // формат: [ [ "urlkey","timestamp","original","mimetype","statuscode","digest","length" ], [ ... ] ]
+    let ts = json_val
+        .as_array()
+        .and_then(|arr| arr.get(1))
+        .and_then(|row| row.get(1))
+        .and_then(|v| v.as_str())
+        .ok_or_else(|| anyhow!("Wayback: нет timestamp для {}", original_url))?;
+
+    // используем "id_" режим для «сырого» ответа без навбара архива
+    let archived = format!("https://web.archive.org/web/{}id_/{}", ts, original_url);
+    let resp = client
+        .get(&archived)
+        .send()
+        .await
+        .map_err(|e| anyhow!(e.to_string()))?
+        .error_for_status()
+        .map_err(|e| anyhow!(e.to_string()))?;
+    let data = resp.bytes().await.map_err(|e| anyhow!(e.to_string()))?;
+    Ok((data.to_vec(), archived, true))
+}
+
 // -------- Скриншоты --------
 
-pub async fn make_screenshot_task(url: &str, screenshots_dir: &std::path::Path) -> AnyResult<()> {
+pub async fn make_screenshot_task(url: &str, screenshots_dir: &Path) -> AnyResult<()> {
     let url_for_filename = url.to_string();
     let url_for_blocking = url.to_string();
 
@@ -129,7 +192,7 @@ pub async fn make_screenshot_task(url: &str, screenshots_dir: &std::path::Path) 
     Ok(())
 }
 
-pub fn save_bytes(path: &std::path::Path, data: &[u8]) -> AnyResult<()> {
+pub fn save_bytes(path: &Path, data: &[u8]) -> AnyResult<()> {
     if let Some(parent) = path.parent() {
         fs::create_dir_all(parent)?;
     }

@@ -9,8 +9,7 @@ use futures::{stream, StreamExt};
 use reqwest::Client;
 use std::collections::HashSet;
 use std::env;
-use std::fs;
-use std::fs::File;
+use std::fs::{self, File};
 use std::path::{Path, PathBuf};
 use std::sync::Arc;
 use tokio::sync::Mutex;
@@ -23,6 +22,7 @@ struct Paths {
     screenshots_dir: PathBuf,
     jsscripts_dir: PathBuf,
     sensitive_info_txt: PathBuf,
+    assets_dir: PathBuf,
 }
 
 impl Paths {
@@ -30,8 +30,10 @@ impl Paths {
         let base = PathBuf::from(domain);
         let screenshots_dir = base.join("screenshots");
         let jsscripts_dir = base.join("JSscripts");
+        let assets_dir = base.join("assets");
         fs::create_dir_all(&screenshots_dir)?;
         fs::create_dir_all(&jsscripts_dir)?;
+        fs::create_dir_all(&assets_dir)?;
         Ok(Self {
             base: base.clone(),
             out_txt: base.join("out.txt"),
@@ -39,8 +41,14 @@ impl Paths {
             screenshots_dir,
             jsscripts_dir,
             sensitive_info_txt: base.join("sensitive_info.txt"),
+            assets_dir,
         })
     }
+}
+impl analysis::PathsLike for Paths {
+    fn screenshots_dir(&self) -> &std::path::Path { &self.screenshots_dir }
+    fn jsscripts_dir(&self)   -> &std::path::Path { &self.jsscripts_dir }
+    fn assets_dir(&self)      -> &std::path::Path { &self.assets_dir }
 }
 
 #[tokio::main]
@@ -55,25 +63,25 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let paths = Paths::new(domain)?;
     let client = Client::new();
 
-    // Wayback CDX
+    // 1) собираем Wayback-URL’ы
     let body = fetch_wayback_urls(&client, domain).await?;
     write_str_to_file(&paths.out_txt, &body)?;
 
-    // Поддомены
+    // 2) поддомены
     let subdomains = extract_subdomains(&paths.out_txt).await?;
     if !subdomains.is_empty() {
         write_str_to_file(&paths.subdomains_txt, &subdomains.join("\n"))?;
     }
 
-    // Файл для чувствительной инфы (под мьютексом)
+    // 3) файл для чувствительной инфы (под мьютексом)
     let info_file = Arc::new(Mutex::new(File::create(&paths.sensitive_info_txt)?));
 
-    // URL’ы — читаем, чистим, дедуп
+    // 4) URL’ы — читаем, чистим, дедуп
     let mut urls = read_urls(&paths.out_txt).await?;
     urls.retain(|u| !u.trim().is_empty());
     let urls: Vec<String> = urls.into_iter().collect::<HashSet<_>>().into_iter().collect();
 
-    // Параллельность
+    // 5) ограниченная параллельность
     let concurrency = 4usize;
 
     stream::iter(urls.into_iter().map(|url| {
@@ -82,22 +90,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         let paths = paths.clone();
 
         async move {
-            if check_url_200(&url, &client).await {
-                println!("Сайт доступен: {}", url);
-
-                if let Err(e) = make_screenshot_task(&url, &paths.screenshots_dir).await {
-                    eprintln!("Ошибка скриншота {}: {}", url, e);
-                }
-
-                if let Err(e) =
-                    save_js_scripts(&url, &client, &paths.jsscripts_dir, &info_file).await
-                {
-                    eprintln!("Ошибка JS скриптов {}: {}", url, e);
-                }
-            } else {
-                println!("Сайт недоступен: {}", url);
+            // общий процессор: качаем (live → fallback Wayback), сохраняем, анализируем
+            if let Err(e) = process_single_url(&client, &url, &paths, &info_file).await {
+                eprintln!("Ошибка обработки {}: {}", url, e);
             }
-
             Ok::<(), Box<dyn std::error::Error>>(())
         }
     }))
