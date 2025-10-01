@@ -1,79 +1,711 @@
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://okko.ru/f/c/second.css
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+https://okko.ru/favicon.ico?utm_referrer=https%3a%2f%2fokko.ru%2f
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/f/c/print.css
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/f/i/keyhole.png
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru:80/fakro-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/sitemap.xml
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/robots.txt
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://servicepipe.ru/static/jsrsasign-all-min.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: c=c.iterations | len=14 | H≈3.38 bits/char | total≈47.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPublic | len=11 | H≈3.46 bits/char | total≈38.05 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSASetPublic | len=12 | H≈3.42 bits/char | total≈41.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAEncrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPrivate | len=12 | H≈3.58 bits/char | total≈43.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAGenerate | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADecrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.1.1 | len=17 | H≈2.09 bits/char | total≈35.49 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2.5.29.37.0 | len=11 | H≈2.55 bits/char | total≈28.05 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.1 | len=17 | H≈2.16 bits/char | total≈36.73 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.2 | len=17 | H≈2.32 bits/char | total≈39.49 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.10045.2.1 | len=17 | H≈2.61 bits/char | total≈44.37 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.113549.1.9.16.1.2 | len=25 | H≈2.82 bits/char | total≈70.59 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: b=KJUR.asn1.csr | len=15 | H≈3.64 bits/char | total≈54.6 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2a8648ce380401 | len=14 | H≈3.18 bits/char | total≈44.55 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: dataEncipherment | len=16 | H≈3.5 bits/char | total≈56 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: keyCertSign | len=11 | H≈3.28 bits/char | total≈36.05 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/f/c/ie.css
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
 http://www.okko.ru/viewtime/storage.js
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
 http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
 http://www.okko.ru/xmlrpc.php?rsd
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
-http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://okko.ru/f/i/logo_small.png
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
 http://okko.ru/velux-okna.php
   - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
-http://okko.ru/velux-okna.php
-  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
-http://okko.ru/?utm_source=twitter.com&utm_medium=social&utm_campaign=rossiyskiy-boevik-turist-nabiraet-vyso
-  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
 http://okko.ru/?ref=vc.ru
   - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
 http://servicepipe.ru/static/jsrsasign-all-min.js
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: c=c.iterations | len=14 | H≈3.38 bits/char | total≈47.3 bits
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPublic | len=11 | H≈3.46 bits/char | total≈38.05 bits
@@ -96,135 +728,592 @@ http://servicepipe.ru/static/jsrsasign-all-min.js
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: keyCertSign | len=11 | H≈3.28 bits/char | total≈36.05 bits
 http://okko.ru/robots.txt
   - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
-http://okko.ru/sitemap.xml
-  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
-http://servicepipe.ru/static/jsrsasign-all-min.js
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: c=c.iterations | len=14 | H≈3.38 bits/char | total≈47.3 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPublic | len=11 | H≈3.46 bits/char | total≈38.05 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSASetPublic | len=12 | H≈3.42 bits/char | total≈41.02 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAEncrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPrivate | len=12 | H≈3.58 bits/char | total≈43.02 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAGenerate | len=11 | H≈3.03 bits/char | total≈33.3 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADecrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.1.1 | len=17 | H≈2.09 bits/char | total≈35.49 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2.5.29.37.0 | len=11 | H≈2.55 bits/char | total≈28.05 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.1 | len=17 | H≈2.16 bits/char | total≈36.73 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.2 | len=17 | H≈2.32 bits/char | total≈39.49 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.10045.2.1 | len=17 | H≈2.61 bits/char | total≈44.37 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.113549.1.9.16.1.2 | len=25 | H≈2.82 bits/char | total≈70.59 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: b=KJUR.asn1.csr | len=15 | H≈3.64 bits/char | total≈54.6 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2a8648ce380401 | len=14 | H≈3.18 bits/char | total≈44.55 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: dataEncipherment | len=16 | H≈3.5 bits/char | total≈56 bits
-  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: keyCertSign | len=11 | H≈3.28 bits/char | total≈36.05 bits
-http://okko.ru/robots.txt
-  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
 http://www.okko.ru/viewtime/storage.js
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
 http://okko.ru/sitemap.xml
   - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/?utm_source=twitter.com&utm_medium=social&utm_campaign=rossiyskiy-boevik-turist-nabiraet-vyso
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/robots.txt
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/sitemap.xml
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://servicepipe.ru/static/jsrsasign-all-min.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: c=c.iterations | len=14 | H≈3.38 bits/char | total≈47.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPublic | len=11 | H≈3.46 bits/char | total≈38.05 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSASetPublic | len=12 | H≈3.42 bits/char | total≈41.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAEncrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPrivate | len=12 | H≈3.58 bits/char | total≈43.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAGenerate | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADecrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.1.1 | len=17 | H≈2.09 bits/char | total≈35.49 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2.5.29.37.0 | len=11 | H≈2.55 bits/char | total≈28.05 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.1 | len=17 | H≈2.16 bits/char | total≈36.73 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.2 | len=17 | H≈2.32 bits/char | total≈39.49 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.10045.2.1 | len=17 | H≈2.61 bits/char | total≈44.37 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.113549.1.9.16.1.2 | len=25 | H≈2.82 bits/char | total≈70.59 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: b=KJUR.asn1.csr | len=15 | H≈3.64 bits/char | total≈54.6 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2a8648ce380401 | len=14 | H≈3.18 bits/char | total≈44.55 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: dataEncipherment | len=16 | H≈3.5 bits/char | total≈56 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: keyCertSign | len=11 | H≈3.28 bits/char | total≈36.05 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
 http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
 http://okko.ru/velux-okna.php
   - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
 http://www.okko.ru/xmlrpc.php?rsd
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
 http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
 http://www.okko.ru/viewtime/storage.js
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
-http://okko.ru/velux-okna.php
-  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
------END PRIVATE KEY----- | len=915 | H≈5.97 bits/char | total≈5460.36 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
 http://www.okko.ru/viewtime/storage.js
   - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.okko.ru/&text=http:/www.okko.ru/css/pvx-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/cat.php?categ=0&page=26
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://okko.ru/velux-okna.php
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/viewtime/storage.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: sameDomain | len=10 | H≈2.92 bits/char | total≈29.22 bits
+http://www.dez-vesta.ru/index.php?option=com_content&task=view&id=32&Itemid=67
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 6Lda2KkUAAAAAE6RoHRCqApKaCztZ8F2SyqrDmky | len=40 | H≈4.48 bits/char | total≈179.37 bits
+http://www.okko.ru/favicon.ico
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+https://okko.ru/exhkqyad
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+https://okko.ru/robots.txt
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+https://servicepipe.ru/static/jsrsasign-all-min.js
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: c=c.iterations | len=14 | H≈3.38 bits/char | total≈47.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPublic | len=11 | H≈3.46 bits/char | total≈38.05 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSASetPublic | len=12 | H≈3.42 bits/char | total≈41.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAEncrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADoPrivate | len=12 | H≈3.58 bits/char | total≈43.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSAGenerate | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: RSADecrypt | len=10 | H≈3.32 bits/char | total≈33.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.1.1 | len=17 | H≈2.09 bits/char | total≈35.49 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2.5.29.37.0 | len=11 | H≈2.55 bits/char | total≈28.05 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.1 | len=17 | H≈2.16 bits/char | total≈36.73 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.3.6.1.5.5.7.3.2 | len=17 | H≈2.32 bits/char | total≈39.49 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.10045.2.1 | len=17 | H≈2.61 bits/char | total≈44.37 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 1.2.840.113549.1.9.16.1.2 | len=25 | H≈2.82 bits/char | total≈70.59 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: b=KJUR.asn1.csr | len=15 | H≈3.64 bits/char | total≈54.6 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: rsaandmgf1 | len=10 | H≈3.12 bits/char | total≈31.22 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: 2a8648ce380401 | len=14 | H≈3.18 bits/char | total≈44.55 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: dataEncipherment | len=16 | H≈3.5 bits/char | total≈56 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: keyCertSign | len=11 | H≈3.28 bits/char | total≈36.05 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+https://okko.ru/sitemap.xml
+  - [Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.] Найдено: -----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
+-----END PRIVATE KEY----- | len=915 | H≈5.99 bits/char | total≈5483.69 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap-select.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .bootstrap-select | len=17 | H≈3.45 bits/char | total≈58.73 bits
+http://www.insi.ru/optima/metall.php
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: targetCount | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: addListeners | len=12 | H≈3.08 bits/char | total≈37.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: setInterval | len=11 | H≈3.1 bits/char | total≈34.05 bits
+http://www.okko.ru/wp-content/themes/okko/js/bootstrap.min.js?ver=4.3.6
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: .dropdown-menu | len=14 | H≈3.38 bits/char | total≈47.3 bits
+http://www.okko.ru/xmlrpc.php?rsd
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: MetaWeblog | len=10 | H≈3.12 bits/char | total≈31.22 bits
+http://www.insi.ru/optima/teploizolyaciya.php
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: targetCount | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: addListeners | len=12 | H≈3.08 bits/char | total≈37.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: setInterval | len=11 | H≈3.1 bits/char | total≈34.05 bits
+http://www.insi.ru/optima/paneli.php
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: targetCount | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: addListeners | len=12 | H≈3.08 bits/char | total≈37.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: setInterval | len=11 | H≈3.1 bits/char | total≈34.05 bits
+http://www.insi.ru/optima/izgot_metal.php
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: targetCount | len=11 | H≈3.03 bits/char | total≈33.3 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: addListeners | len=12 | H≈3.08 bits/char | total≈37.02 bits
+  - [Detected a Generic API Key, potentially exposing access to various services and sensitive operations.] Найдено: setInterval | len=11 | H≈3.1 bits/char | total≈34.05 bits

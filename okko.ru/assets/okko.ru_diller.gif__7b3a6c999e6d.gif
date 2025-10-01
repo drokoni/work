@@ -31,31 +31,31 @@
   <script type="text/javascript">
 
 function get_cookie_spsn() {
-  return "spsn=1758065435336_";
+  return "spsn=1759344956128_";
 }
 function get_cookie_spid() {
-  return "oirutpspid=1758065435336_239f43b94ebd750d84329d01f95e77ca_pbira2w3du8vxm6w";
+  return "oirutpspid=1759344956128_26636b31c6aed42f78b261a3a0a60790_wjmq3cq0hrceftoo";
 }
 function get_cookie_spsc_encrypted_part() {
   let func = function () {/*-----BEGIN PRIVATE KEY-----
-MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
-P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
-x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
-/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
-fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
-XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
-SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
-7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
-qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
-kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
-Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
-Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
-C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
-CoQN7BP65Jf2Ec+l
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyBt/bJcLhvPgX4
+0Mgueo1SABk6rGW070XXq+fUsE5ayVRfjW25Wd6aNz4js220a2MFn+rtdnK3uhwj
+IqqOeoP1Lkk3IzSjjzw53NIXZAGWBOCJBxSOqKflIPIi3NbT+eZc+fVt3OecYOE4
+H2wQ1zTRy1pZAg5kThO6u+Z4pw0HAgMBAAECgYBlmmGH8U1608psKgiOXxG/erSk
+J3Ky1Ma5FDYj7ZmKDN7X2w+puKm9+obfCpf73XACeqWd8Q76skvjlq4sVo7BgaT0
+2qN6GDroT11sg4CSVSwJxHvzxkmJnATwDro2rwLEshXS9wLBDLEPz1KgUJ14Nk2S
+xKd4rp89MvH8ZyiuAQJBAOPHO1ehZaVKbOQlmbnEvWUbDd/QQso9AxgyDRMjd9eJ
+RAQ5FOZaq4SjhQPCZllDXZNYd1WCNGSSw0cpV98iWqcCQQDB4VxLQ3z+307r/Pbj
+IgNe0Yeii0jP86En4ev80hzedAFW7sp6hl9ur6RA3mCwN59L/jUT/DwdLckx1xxp
+1uahAkEA2XdblryG+RpngCLN8+h8Ek2UH30MZ1182NrgVMdmIafyAj4lUBB89PPR
+iNdPNCX27zhlJoRbVTIxsn0sYeLAvQJAZoAWo1PSyYyV1P2wKPTag06TPsQUgpxz
+Hvq6ILeUu6bo7mTgd1aDLal+VS08QO2nMi37Mc2wmlySed8YDnynAQJBAIq5gs6A
+Cr1BwWDI7XRC/MFh/h2y+iEKRPjzmHt/BcPpWwf/bw8FJBZNRkNBUne0T7b5GCwT
+I+WKBS0f1hMD5k4=
 -----END PRIVATE KEY-----
 */};
   let pem = func.toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];
-  return KJUR.crypto.Cipher.decrypt("1f955a2dfbdc0004201e837f26368ce8d40017b9570ee04825b1b3683be07c885a0d50789a615dd3d5108dafa964c77505707bc9c2ca61f19a910fcf50732e3269acd1b00d7c6020868e9cd7a849226ff8c37572755f80ead2ce912b4c9ade9d5585dda5e56075c1a062374067913cc43748343fba19ab65f32e74ee9ca672f4", KEYUTIL.getKey(pem));
+  return KJUR.crypto.Cipher.decrypt("4903692d9cfbe354785443ee553734718c3f497e17ef9e3a1fcd37bd56c852e5fa8f0297c350b7955082be277e60b331131d3794f817c474c3df88ef592660e09ab7975ccd6c15a54933af916dfc9fc71cf18ff7802bb69fab2d26d6b8e901fe20feba6d69e178a70dd8374ee4288b0ab2b2dbbf66b3bf163082ea390972183b", KEYUTIL.getKey(pem));
 }
 function get_cookie_spsc_uncrypted_part() {
   return "";
@@ -68,7 +68,7 @@ function get_options() {
   return JSON.parse('{"is_captcha":false}');
 }
 function get_location() {
-  let location = "/xpvnsulc/?back_location=https%3a%2f%2fokko.ru%2fdiller.gif%3futm_referrer%3dhttp%253a%252f%252fokko.ru%252fdiller.gif&hcheck=bcffd037a5f4e9e0e4ba61dc7309379c&request_datetime=2025-09-16+23%3a30%3a35+%2b0000&request_ip=77.110.106.9&request_id=ZUlY4ACil0U1&srv=1de7469bd5a50d4edbdd708bfdd1ad3f&copts_k=e1aacfe9fdc3be1582224d8c1cf13d356cc95a6c7c2441307773feacd69504f5450ad80857361a77038b7bfbb626b2d69c7ad8bbb8d854dbae5a9e83e438fa10";
+  let location = "/xpvnsulc/?back_location=https%3a%2f%2fokko.ru%2fdiller.gif%3futm_referrer%3dhttp%253a%252f%252fokko.ru%252fdiller.gif&hcheck=bcffd037a5f4e9e0e4ba61dc7309379c&request_datetime=2025-10-01+18%3a55%3a56+%2b0000&request_ip=77.110.106.9&request_id=utS3HU4Laa61&srv=1de7469bd5a50d4edbdd708bfdd1ad3f&copts_k=ba7caaa741cd050d5c32fbc81bce749e067bb780fecfe1020cea76016594aa62d6664dd5cdb528962f53b8d6f01bc081a71f8c7b1fd4c7a7e386f5749562be6f";
   if (location.includes("?")) {
     location += "&";
   } else {
@@ -77,6 +77,6 @@ function get_location() {
   return location + get_cookie_spid() + "&" + get_cookie_spsc();
 }
   </script>
-  <script type="text/javascript" src="//servicepipe.ru/static/checkjs/KmNkPVWU8T.js"></script>
+  <script type="text/javascript" src="//servicepipe.ru/static/checkjs/7t42oZyWj7.js"></script>
 </body>
 </html>

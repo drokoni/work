@@ -1,5 +1,5 @@
 use anyhow::{anyhow, Result as AnyResult};
-use headless_chrome::Browser;
+use headless_chrome::protocol::page::ScreenshotFormat;
 use regex::Regex;
 use reqwest::{Client, StatusCode};
 use sha2::{Digest, Sha256};
@@ -7,7 +7,7 @@ use std::{
     collections::HashSet,
     fs::{self, File},
     io::Write,
-    path::{Path, PathBuf},
+    path::Path,
 };
 use tokio::{
     fs::File as AsyncFile,
@@ -15,6 +15,8 @@ use tokio::{
     time::{timeout, Duration},
 };
 use url::Url;
+
+use crate::browser_manager::BROWSER_MANAGER;
 
 // -------- Wayback / IO --------
 
@@ -97,7 +99,7 @@ pub async fn check_url_200(url: &str, client: &Client) -> bool {
         .map_or(false, |r| r.status().is_success())
 }
 
-/// Пытается скачать ресурс "как есть". Если 4xx/5xx/таймаут — берёт последний снапшот из Wayback.
+/// Скачивает live-ресурс; при ошибке берёт последний успешный снапшот из Wayback.
 /// Возвращает (bytes, использованный_url, is_wayback).
 pub async fn fetch_live_or_wayback(
     client: &Client,
@@ -163,32 +165,54 @@ pub async fn fetch_live_or_wayback(
 // -------- Скриншоты --------
 
 pub async fn make_screenshot_task(url: &str, screenshots_dir: &Path) -> AnyResult<()> {
-    let url_for_filename = url.to_string();
-    let url_for_blocking = url.to_string();
+    let fixed_url = url.to_string();
+    let fixed_for_name = fixed_url.clone();
 
+    // блокирующая часть в отдельном потоке
     let data = tokio::task::spawn_blocking(move || -> AnyResult<Vec<u8>> {
-        let browser = Browser::default().map_err(|e| anyhow!(e.to_string()))?;
-        let tab = browser.new_tab().map_err(|e| anyhow!(e.to_string()))?;
-        tab.navigate_to(&url_for_blocking)
-            .map_err(|e| anyhow!(e.to_string()))?
-            .wait_until_navigated()
-            .map_err(|e| anyhow!(e.to_string()))?;
-        let screenshot = tab
-            .capture_screenshot(
-                headless_chrome::protocol::page::ScreenshotFormat::PNG,
-                None,
-                true,
-            )
-            .map_err(|e| anyhow!(e.to_string()))?;
-        Ok(screenshot)
+        // 2 попытки: если умерло DevTools-соединение — перезапустим браузер и повторим
+        for attempt in 1..=2 {
+            let browser = BROWSER_MANAGER
+                .get()
+                .map_err(|e| anyhow!("Запуск Chrome: {e}"))?;
+
+            match browser.new_tab() {
+                Ok(tab) => {
+                    tab.navigate_to(&fixed_url)
+                        .map_err(|e| anyhow!("navigate_to({fixed_url}): {e}"))?
+                        .wait_until_navigated()
+                        .map_err(|e| anyhow!("wait_until_navigated: {e}"))?;
+
+                    let png = tab
+                        .capture_screenshot(ScreenshotFormat::PNG, None, true)
+                        .map_err(|e| anyhow!("capture_screenshot: {e}"))?;
+                    return Ok(png);
+                }
+                Err(e) => {
+                    let msg = e.to_string();
+                    // Если видим «connection is closed», инвалидируем и ретраим
+                    if msg.contains("connection is closed") || msg.contains("WebSocket") {
+                        if attempt == 1 {
+                            let _ = BROWSER_MANAGER.invalidate(); // проглатываем возможную ошибку
+                            continue;
+                        }
+                    }
+                    return Err(anyhow!("Не удалось создать вкладку: {msg}"));
+                }
+            }
+        }
+        Err(anyhow!("Не удалось создать вкладку после повторной попытки"))
     })
     .await
     .map_err(|e| anyhow!("JoinError: {e}"))??;
 
-    let filename = sanitize_filename(&url_for_filename);
-    let path = screenshots_dir.join(format!("{filename}.png"));
-    save_bytes(&path, &data)?;
-    println!("Скриншот сохранён: {}", path.display());
+    // сохраняем PNG
+    let name = sanitize_filename(&fixed_for_name);
+    let path = screenshots_dir.join(format!("{name}.png"));
+    std::fs::create_dir_all(screenshots_dir)
+        .map_err(|e| anyhow!("Создание папки {:?}: {e}", screenshots_dir))?;
+    std::fs::write(&path, &data).map_err(|e| anyhow!("Запись файла {:?}: {e}", path))?;
+
     Ok(())
 }
 

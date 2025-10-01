@@ -1,6 +1,7 @@
 mod allowlist;
 mod utils;
 mod analysis;
+mod browser_manager;
 
 use analysis::*;
 use utils::*;
