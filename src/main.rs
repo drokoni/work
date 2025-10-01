@@ -63,7 +63,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let paths = Paths::new(domain)?;
     let client = Client::new();
 
-    // 1) собираем Wayback-URL’ы
+    // 1) собираем Wayback-URLs
     let body = fetch_wayback_urls(&client, domain).await?;
     write_str_to_file(&paths.out_txt, &body)?;
 

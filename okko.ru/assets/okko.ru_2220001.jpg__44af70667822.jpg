@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <noscript><meta http-equiv="refresh" content="0; url=/exhkqyad"></noscript>
+</head>
+<style>
+    .container {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .load {
+      color: grey;
+      font-size: 3vh;
+    }
+    .spinner {
+      display: block;
+      background:  url('//servicepipe.ru/loaders/default.gif');
+      width: 64px;
+      height: 64px;
+    }
+</style>
+<body>
+  <div id="id_spinner" class="container"><div class="load"></div><div class="spinner"></div></div>
+  <div id="id_captcha_frame_div" style="display: none;height: 100vh;"></div>
+  <script type="text/javascript" src="//servicepipe.ru/static/jsrsasign-all-min.js"></script>
+  <script type="text/javascript">
+
+function get_cookie_spsn() {
+  return "spsn=1758065465028_";
+}
+function get_cookie_spid() {
+  return "oirutpspid=1758065465028_9f9a5dd7dda406a16ae25fd923322641_inkkjtsgl2ix7ooh";
+}
+function get_cookie_spsc_encrypted_part() {
+  let func = function () {/*-----BEGIN PRIVATE KEY-----
+MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANWKiu4j/6S3+MGC
+P2MaDOlekQA93F5fDdZ3KRfZa07FWby2cEvgcqus5w06tR+cHO1ciooa4AA3jr5p
+x8faxOEJbYG52XWY2aGjDg0kgkt5fo/K+nYLBgk8g9ZrBtxE2XMb/I0K33PtOfeU
+/lT/FqNT2K9BdIfywKLxTZaWBYCzAgMBAAECgYEAsEkSTmxLhFkYM+/pkk+ULygR
+fmiTPxkrnEx9ESI9Myc64M6fwBQHtnAjwkkf83t2agGGoWJ0X9l9rvY2pmeVNUtF
+XGvqKo7UmK5lUphOQ1+sS3ObISaC+WfXo20C43TBGHBfWsp2r5mQyAHB1gKgXA1H
+SqUqMj0ibvUB1wysd+ECQQD4n9zxgwVFqpOewIONGkBDm3tj08mqZ+BVMn2BI/Ag
+7FSOOQfSUlKUGDnfYZxp2mAzurSBAitnEAxbaE7is2gDAkEA2+A+2cQ5/ZwpNI1a
+qf5G+1kKcDuzxlgov5EAdx80/dQe664IbDqUmO1+11+sbMvheVnU0fWlUWCwI7JW
+kd/dkQJBAIXuWC8hzW1B/lO+kR8pzQSedVHJfRF287nxgPpYSbrylHoo7rW18xYk
+Fsjm5EOBh+FV6na0nHzggEedYSFuU9ECQQCCLijIIif7gcPbu31cfJJmKnfFr3Nn
+Ebc+hIlz/eQQDNEp1OZjveNRD/wzZA/gcm3SvV8F2JzCq65d1C7xO0whAkBgezJo
+C6xzEZmDZPfV/rgnlJk39ShZ3wv1HZFPQPo52pcXhT3p4adYC+ac5uxhPlMT6+NY
+CoQN7BP65Jf2Ec+l
+-----END PRIVATE KEY-----
+*/};
+  let pem = func.toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];
+  return KJUR.crypto.Cipher.decrypt("2e17e599e4eebb4b8801e0a1d587e0584c321a8eb1b21479fae04b68f4e59bb0312e6969afd44c94632ebb54de26383ecc549691966f0b8fbf7f0a3e1f928f4c5cb3a71d554e2cdbefe556ba4d38254e1e6a92cd350ef8762899e550e037c63ed7d2372e763e8af741ac50175fdbfe668b6c158679143e10d260a220609636c7", KEYUTIL.getKey(pem));
+}
+function get_cookie_spsc_uncrypted_part() {
+  return "";
+}
+function get_cookie_spsc() {
+  const ret = get_cookie_spsc_uncrypted_part() + get_cookie_spsc_encrypted_part();
+  return "oirutpspsc=" + ret;
+}
+function get_options() {
+  return JSON.parse('{"is_captcha":false}');
+}
+function get_location() {
+  let location = "/xpvnsulc/?back_location=https%3a%2f%2fokko.ru%2f2220001.jpg%3futm_referrer%3dhttp%253a%252f%252fokko.ru%252f2220001.jpg&hcheck=9d228cd48b2ded03bcd927a7de2a16ff&request_datetime=2025-09-16+23%3a31%3a05+%2b0000&request_ip=77.110.106.9&request_id=5Vlq1tCiluQ1&srv=1de7469bd5a50d4edbdd708bfdd1ad3f&copts_k=f480bc29549592452db8b0f64373af406e8c16a2d4fd56b1ba80d7128bf273e4029975879415268c3010bce05a037fa5c7180d5760971281c1230d25ff64c03c";
+  if (location.includes("?")) {
+    location += "&";
+  } else {
+    location += "?";
+  }
+  return location + get_cookie_spid() + "&" + get_cookie_spsc();
+}
+  </script>
+  <script type="text/javascript" src="//servicepipe.ru/static/checkjs/x4Dp6sBDs4.js"></script>
+</body>
+</html>

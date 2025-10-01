@@ -1,0 +1,21 @@
+User-Agent: Yandex
+Disallow: /obust.html
+Disallow: /price.html
+Disallow: /index.html
+Disallow: /kon.html
+Disallow: /proizv.html
+Disallow: /dealers.html
+Disallow: /b.php
+Disallow: /info.html
+Host: www.okko.ru
+
+User-Agent: *
+Disallow: /obust.html
+Disallow: /price.html
+Disallow: /index.html
+Disallow: /kon.html
+Disallow: /proizv.html
+Disallow: /dealers.html
+Disallow: /info.html
+Disallow: /b.php
+Host: www.okko.ru
