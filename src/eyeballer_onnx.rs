@@ -1,40 +1,43 @@
-use anyhow::{Context, Result};
+use anyhow::{anyhow, Context, Result};
 use csv::Writer;
 use image::{imageops::FilterType, DynamicImage};
-use ndarray::{Array, IxDyn};
-use ort::{environment::Environment, session::Session, GraphOptimizationLevel, LoggingLevel, SessionBuilder, Value};
-use serde::Serialize;
-use std::{fs, path::{Path, PathBuf}, time::Duration};
+use ndarray::{Array2, Array3, Array4, Axis, CowArray, Ix2, IxDyn, ArrayView2};
+use ort::{
+    environment::Environment,
+    session::{Session, SessionBuilder},
+    value::Value,
+    LoggingLevel,
+};
+use pathdiff::diff_paths;
+use std::{
+    fs,
+    path::{Path, PathBuf},
+    sync::Arc,
+    time::Duration,
+};
 use walkdir::WalkDir;
 
-
 const IMG_EXTS: &[&str] = &[".png", ".jpg", ".jpeg", ".bmp", ".webp"];
-const INPUT_H: u32 = 224;
-const INPUT_W: u32 = 224;
+const INPUT_W: usize = 256;
+const INPUT_H: usize = 256;
 
 #[derive(Clone)]
 pub struct Labels(pub Vec<String>);
-
 impl Labels {
-    pub fn default_eyeballer() -> Self {
-        // если хочешь — подставь точные метки из DATA_LABELS Eyeballer
+    pub fn eyeballer_default() -> Self {
+        // при необходимости подставь точный порядок из Eyeballer::DATA_LABELS
         Self(vec![
-            "boring".into(), "interesting".into(), "login".into(), "error".into(), "other".into(),
+            "boring".into(),
+            "interesting".into(),
+            "login".into(),
+            "error".into(),
+            "other".into(),
         ])
     }
 }
 
-#[derive(Serialize)]
-struct Row {
-    file: String,
-    top_label: String,
-    top_prob: f32,
-    #[serde(flatten)]
-    probs: serde_json::Map<String, serde_json::Value>,
-}
-
 pub struct EyeballerRunner {
-    env: Environment,
+    _env: Arc<Environment>,
     session: Session,
     input_name: String,
     labels: Labels,
@@ -42,47 +45,66 @@ pub struct EyeballerRunner {
 
 impl EyeballerRunner {
     pub fn new(model_path: impl AsRef<Path>, labels: Labels) -> Result<Self> {
+        // В ort 1.16 builder возвращает Environment; SessionBuilder::new ждёт Arc<Environment>
         let env = Environment::builder()
             .with_name("eyeballer")
             .with_log_level(LoggingLevel::Warning)
-            .build()?;
-        let mut sb: SessionBuilder = env
-            .new_session_builder()?
-            .with_optimization_level(GraphOptimizationLevel::All)?
-            .with_intra_op_num_threads(0)?; // пусть сам подберёт потоки
-        sb.set_session_timeout(Duration::from_secs(0)); // без таймаута
+            .build()
+            .map_err(|e| anyhow!("Environment::build: {e}"))?;
+        let env = Arc::new(env);
 
-        let session = sb.with_model_from_file(model_path.as_ref())?;
-        let input_name = session.inputs()[0]
-            .name
-            .clone()
+        let mut sb: SessionBuilder = SessionBuilder::new(&env)
+            .map_err(|e| anyhow!("SessionBuilder::new: {e}"))?;
+        // В 1.16 нет set_session_timeout у builder'а — пропускаем
+        // (timeout здесь не критичен; если нужен, обрабатывай на уровне вызывающего кода)
+
+        let session = sb
+            .with_model_from_file(model_path.as_ref())
+            .map_err(|e| anyhow!("with_model_from_file: {e}"))?;
+
+        // В 1.16 inputs — это поле, а не метод
+        let input_name = session
+            .inputs
+            .get(0)
+            .map(|i| i.name.clone())
             .unwrap_or_else(|| "input".to_string());
-        Ok(Self { env, session, input_name, labels })
+
+        Ok(Self {
+            _env: env,
+            session,
+            input_name,
+            labels,
+        })
     }
 
-    fn softmax(&self, mut logits: Vec<f32>) -> Vec<f32> {
-        let m = logits
-            .iter()
-            .cloned()
-            .fold(f32::NEG_INFINITY, f32::max);
-        let mut sum = 0.0f32;
-        for x in logits.iter_mut() {
+    fn softmax(&self, mut v: Vec<f32>) -> Vec<f32> {
+        if v.is_empty() {
+            return v;
+        }
+        let mut m = f32::NEG_INFINITY;
+        for &x in &v {
+            if x > m {
+                m = x;
+            }
+        }
+        let mut s = 0.0_f32;
+        for x in v.iter_mut() {
             *x = (*x - m).exp();
-            sum += *x;
+            s += *x;
         }
-        for x in logits.iter_mut() {
-            *x /= sum;
+        if s > 0.0 {
+            for x in v.iter_mut() {
+                *x /= s;
+            }
         }
-        logits
+        v
     }
 
     fn preprocess_one(&self, p: &Path) -> Result<Vec<f32>> {
-        let img = image::open(p)
-            .with_context(|| format!("open image: {}", p.display()))?;
+        let img = image::open(p).with_context(|| format!("open {}", p.display()))?;
         let rgb = DynamicImage::from(img).to_rgb8();
-        let resized = image::imageops::resize(&rgb, INPUT_W, INPUT_H, FilterType::Triangle);
-        // Нормализация [0,1], NHWC
-        let mut v = Vec::with_capacity((INPUT_W * INPUT_H * 3) as usize);
+        let resized = image::imageops::resize(&rgb, INPUT_W as u32, INPUT_H as u32, FilterType::Triangle);
+        let mut v = Vec::with_capacity((INPUT_W * INPUT_H  * 3) as usize);
         for px in resized.pixels() {
             v.push(px[0] as f32 / 255.0);
             v.push(px[1] as f32 / 255.0);
@@ -91,122 +113,207 @@ impl EyeballerRunner {
         Ok(v)
     }
 
-    fn read_images(&self, images_dir: &Path) -> Result<Vec<PathBuf>> {
-        let mut out = Vec::new();
-        for e in WalkDir::new(images_dir).into_iter().filter_map(|e| e.ok()) {
-            if !e.file_type().is_file() { continue; }
+    fn collect_images(&self, dir: &Path) -> Result<Vec<PathBuf>> {
+        let mut files = Vec::new();
+        for e in WalkDir::new(dir).into_iter().filter_map(|e| e.ok()) {
+            if !e.file_type().is_file() {
+                continue;
+            }
             let p = e.path();
-            if let Some(ext) = p.extension().and_then(|s| s.to_str()).map(|s| s.to_ascii_lowercase()) {
-                if IMG_EXTS.iter().any(|&x| x == format!(".{}", ext)) {
-                    out.push(p.to_path_buf());
-                }
+            let ok = p
+                .extension()
+                .and_then(|s| s.to_str())
+                .map(|s| {
+                    let low = s.to_ascii_lowercase();
+                    IMG_EXTS.iter().any(|&ext| ext == format!(".{}", low))
+                })
+                .unwrap_or(false);
+            if ok {
+                files.push(p.to_path_buf());
             }
         }
-        if out.is_empty() {
-            anyhow::bail!("Нет изображений в {}", images_dir.display());
+        files.sort();
+        if files.is_empty() {
+            return Err(anyhow!("Нет изображений в {}", dir.display()));
         }
-        out.sort();
-        Ok(out)
+        Ok(files)
     }
 
-    pub fn infer_folder(
+    /// Прогон папки -> CSV + HTML
+    pub fn infer_to_csv_html(
         &self,
-        images_dir: impl AsRef<Path>,
-        out_dir: impl AsRef<Path>,
-        batch_size: usize,
+        images_dir: &Path,
+        out_dir: &Path,
+        _batch: usize,               // игнорируем внешний батч — модель ждёт 1×3×256×256
         csv_name: &str,
-    ) -> Result<PathBuf> {
-        let images_dir = images_dir.as_ref();
-        let out_dir = out_dir.as_ref();
-        fs::create_dir_all(out_dir)?;
+        html_template: Option<&str>,
+    ) -> Result<(PathBuf, PathBuf)> {
+        fs::create_dir_all(out_dir)
+            .with_context(|| format!("mkdir -p {}", out_dir.display()))?;
+
+    // CSV
         let csv_path = out_dir.join(csv_name);
+        let mut w = Writer::from_path(&csv_path)
+            .with_context(|| format!("open csv for write: {}", csv_path.display()))?;
 
-        let labels = &self.labels.0;
-        let mut w = Writer::from_path(&csv_path)?;
-        // header
-        let mut header = vec!["file".to_string(), "top_label".to_string(), "top_prob".to_string()];
-        for l in labels {
+    // header
+        let mut header = vec![
+            "file".to_string(),
+            "top_label".to_string(),
+            "top_prob".to_string(),
+    ];
+        for l in &self.labels.0 {
             header.push(format!("p_{}", l));
+    }
+    w.write_record(&header).with_context(|| "write csv header")?;
+
+    // входные файлы
+    let files = self.collect_images(images_dir)?;
+    let ncls = self.labels.0.len();
+
+    for p in files {
+        // --- 1) загрузка и предобработка -> (H,W,C) float32 [0..1] ---
+        let img = image::open(&p)
+            .with_context(|| format!("open image: {}", p.display()))?;
+        let img = img.resize_exact(INPUT_W as u32, INPUT_H as u32, FilterType::Triangle);
+        let rgb = img.to_rgb8();
+
+        // (H, W, C)
+        let mut hwc = Array3::<f32>::zeros((INPUT_H, INPUT_W, 3));
+        for (y, x, px) in rgb.enumerate_pixels() {
+            let [r, g, b] = px.0;
+            let yi = y as usize;
+            let xi = x as usize;
+            hwc[(yi, xi, 0)] = (r as f32) / 255.0;
+            hwc[(yi, xi, 1)] = (g as f32) / 255.0;
+            hwc[(yi, xi, 2)] = (b as f32) / 255.0;
         }
-        w.write_record(&header)?;
 
-        let paths = self.read_images(images_dir)?;
-        let ncls = labels.len();
+        // --- 2) NHWC -> NCHW, затем добавляем batch: (1,C,H,W) ---
+        let chw: Array3<f32> = hwc.permuted_axes([2, 0, 1]).to_owned(); // (C,H,W)
+        let input_1chw: Array4<f32> = chw.insert_axis(Axis(0));         // (1,C,H,W)
+        let input_dyn = input_1chw.into_dyn();
 
-        for chunk in paths.chunks(batch_size.max(1)) {
-            // подготовка батча: [N, H, W, 3]
-            let mut buf = Vec::<f32>::with_capacity(chunk.len() * (INPUT_W * INPUT_H * 3) as usize);
-            for p in chunk {
-                buf.extend(self.preprocess_one(p)?);
-            }
-            let shape = IxDyn(&[chunk.len() as i64, INPUT_H as i64, INPUT_W as i64, 3]);
-            let input = Array::from_shape_vec(shape.clone(), buf)?;
-            let input_tensor = Value::from_array(self.session.allocator(), &input)?;
+        // --- 3) в ORT нужен CowArray ---
+        let input_cow: CowArray<f32, IxDyn> = CowArray::from(input_dyn.view());
+        let input_tensor = Value::from_array(self.session.allocator(), &input_cow)
+            .map_err(|e| anyhow!("from_array: {e}"))?;
 
-            let outputs = self.session.run(vec![(self.input_name.as_str(), input_tensor)])?;
-            let out = outputs[0].try_extract_tensor::<f32>()?;
-            let out_slice = out.view();
+        // --- 4) запускаем inference (ort 1.16: без имён входов) ---
+        let outputs = self.session
+            .run(vec![input_tensor])
+            .map_err(|e| anyhow!("session.run: {e}"))?;
 
-            for (i, p) in chunk.iter().enumerate() {
-                // logits для картинки i
-                let mut logits = vec![0.0f32; ncls];
-                for c in 0..ncls {
-                    logits[c] = *out_slice.get(&[i as i64, c as i64]).unwrap_or(&0.0);
-                }
-                let probs = self.softmax(logits);
-                let (top_i, top_prob) = probs
-                    .iter()
-                    .enumerate()
-                    .max_by(|a, b| a.1.partial_cmp(b.1).unwrap())
-                    .map(|(i, &p)| (i, p))
-                    .unwrap();
+        // --- 5) извлекаем выход (ожидаем (1, ncls)) ---
+        let out = outputs[0]
+            .try_extract::<f32>()
+            .map_err(|e| anyhow!("try_extract<f32>: {e}"))?;
 
-                let rel = pathdiff::diff_paths(p, images_dir).unwrap_or_else(|| p.to_path_buf());
-                let mut record = vec![
-                    rel.to_string_lossy().to_string(),
-                    labels.get(top_i).cloned().unwrap_or_else(|| top_i.to_string()),
-                    format!("{:.6}", top_prob),
-                ];
-                for j in 0..ncls {
-                    record.push(format!("{:.6}", probs[j]));
-                }
-                w.write_record(&record)?;
+        // Приводим к (1, C) и читаем вероятности
+        let out_view = out.view();
+        let out2: ArrayView2<f32> = out_view
+            .view()
+            .into_dimensionality::<Ix2>()
+            .map_err(|e| anyhow!("expect (1, C) output, got different rank: {e}"))?;
+
+        // логиты одной строки
+        let mut logits = vec![0.0_f32; ncls];
+        for c in 0..ncls {
+            logits[c] = out2[(0, c)];
+        }
+        let probs = self.softmax(logits);
+
+        // топ-1
+        let (mut top_i, mut top_p) = (0usize, f32::MIN);
+        for (j, &pv) in probs.iter().enumerate() {
+            if pv > top_p {
+                top_p = pv;
+                top_i = j;
             }
         }
-        w.flush()?;
-        Ok(csv_path)
+
+        // относительный путь для CSV
+        let rel = diff_paths(&p, images_dir).unwrap_or_else(|| p.clone());
+        let mut row = vec![
+            rel.to_string_lossy().to_string(),
+            self.labels.0.get(top_i).cloned().unwrap_or_else(|| top_i.to_string()),
+            format!("{:.6}", top_p),
+        ];
+        for j in 0..ncls {
+            row.push(format!("{:.6}", probs[j]));
+        }
+        w.write_record(&row).with_context(|| "write csv row")?;
     }
 
-    pub fn write_html(&self, images_dir: &Path, out_dir: &Path, csv_name: &str) -> Result<PathBuf> {
-        static HTML: &str = include_str!("eyeballer_report.html");
-        let html = HTML
-            .replace("{CSV_NAME}", csv_name)
-            .replace("{IMAGES_DIR}", &images_dir.to_string_lossy());
-        let path = out_dir.join("index.html");
-        fs::write(&path, html)?;
-        Ok(path)
-    }
+    w.flush().with_context(|| "flush csv")?;
 
+    // --- 6) HTML отчёт ---
+    let html_path = out_dir.join("index.html");
+    let html_tpl = if let Some(t) = html_template {
+        t.to_string()
+    } else {
+        include_str!("prediction_output_template.html").to_string()
+    };
+
+    let html = html_tpl
+        .replace("{CSV_NAME}",
+            &csv_path
+                .file_name()
+                .map(|s| s.to_string_lossy().into_owned())
+                .unwrap_or_else(|| "predictions.csv".into())
+        )
+        .replace("{TITLE}", "Eyeballer ONNX Report");
+
+    fs::write(&html_path, html)
+        .with_context(|| format!("write {}", html_path.display()))?;
+
+    Ok((csv_path, html_path))
+}
+
+    /// Простой HTTP-просмотр отчёта
     pub fn serve(out_dir: &Path, port: u16) -> Result<()> {
-        use tiny_http::{Response, Server};
-        let server = Server::http(format!("127.0.0.1:{port}"))?;
+        use tiny_http::{Header, Response, Server};
+
+        let server = Server::http(format!("127.0.0.1:{port}"))
+            .map_err(|e| anyhow!("Server::http: {e}"))?;
         println!("Report: http://127.0.0.1:{port}/");
+
         for rq in server.incoming_requests() {
             let url = rq.url().trim_start_matches('/');
             let req_path = if url.is_empty() { "index.html" } else { url };
             let fs_path = out_dir.join(req_path);
-            let resp = if fs_path.is_file() {
-                let data = fs::read(&fs_path)?;
-                let mut r = Response::from_data(data);
-                if req_path.ends_with(".html") { r.add_header("Content-Type: text/html".parse().unwrap()); }
-                if req_path.ends_with(".csv")  { r.add_header("Content-Type: text/csv".parse().unwrap()); }
-                r
+
+            let mut resp = if fs_path.is_file() {
+                match fs::read(&fs_path) {
+                    Ok(bytes) => Response::from_data(bytes),
+                    Err(e) => Response::from_string(format!("500: {e}\n")).with_status_code(500),
+                }
             } else {
-                Response::from_string("404")
-                    .with_status_code(404)
+                Response::from_string("404\n").with_status_code(404)
             };
-            rq.respond(resp).ok();
+
+            // Content-Type без unwrap
+            let mime = if req_path.ends_with(".html") {
+                Some("text/html")
+            } else if req_path.ends_with(".csv") {
+                Some("text/csv")
+            } else if req_path.ends_with(".js") {
+                Some("application/javascript")
+            } else if req_path.ends_with(".css") {
+                Some("text/css")
+            } else {
+                None
+            };
+
+            if let Some(m) = mime {
+                if let Ok(h) = Header::from_bytes("Content-Type", m) {
+                    resp.add_header(h);
+                }
+            }
+
+            let _ = rq.respond(resp);
         }
         Ok(())
     }
 }
+

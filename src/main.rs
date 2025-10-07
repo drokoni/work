@@ -1,46 +1,94 @@
-// src/main.rs
-// main остаётся простым: парсим аргументы, вызываем библиотечные функции из lib.rs
+use anyhow::{Result, anyhow};
+use clap::{ArgAction, Parser};
+use std::{fs, path::PathBuf};
 
-use work::*;                    // тянет re-exports из lib.rs
+use work::*; // твоя библиотека
 use work::eyeballer_onnx::{EyeballerRunner, Labels};
 
+#[derive(Parser, Debug)]
+#[command(author="McQueen", version="0.1",
+    about="Сканер + Eyeballer ONNX-анализ", long_about=None)]
+struct Args {
+    /// Домен для скана (если НЕ указан --images)
+    #[arg(value_name="DOMAIN", required_unless_present="images")]
+    domain: Option<String>,
+
+    /// Папка с изображениями. Если указана — скан НЕ выполняется.
+    #[arg(long, value_name="DIR")]
+    images: Option<PathBuf>,
+
+    /// Выполнить анализ скриншотов (если задан --images, включается автоматически)
+    #[arg(long, action=ArgAction::SetTrue)]
+    analyze: bool,
+
+    /// Путь к .onnx модели
+    #[arg(long, value_name="PATH", default_value="assets/ml/eyeballer.onnx")]
+    model: PathBuf,
+
+    /// Папка для отчёта
+    #[arg(long, value_name="DIR")]
+    report: Option<PathBuf>,
+
+    /// Размер батча
+    #[arg(long, value_name="N", default_value_t=32)]
+    batch: usize,
+
+    /// Поднять локальный HTTP-сервер
+    #[arg(long, action=ArgAction::SetTrue)]
+    serve: bool,
+
+    /// Порт сервера
+    #[arg(long, value_name="PORT", default_value_t=8000)]
+    port: u16,
+}
+
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // Использование:
-    //   work <domain> [--analyze] [--model assets/ml/eyeballer.onnx] [--report <dir>] [--serve]
-    let args: Vec<String> = env::args().collect();
-    if args.len() < 2 {
-        eprintln!("Usage: {} <domain> [--analyze] [--model <onnx>] [--report <dir>] [--serve]", args[0]);
-        return Ok(());
-    }
-    let domain = &args[1];
-    let analyze = args.iter().any(|a| a == "--analyze");
-    let serve   = args.iter().any(|a| a == "--serve");
-    let model_path = args.iter().position(|a| a == "--model")
-        .and_then(|i| args.get(i+1)).cloned()
-        .unwrap_or_else(|| "assets/ml/eyeballer.onnx".to_string());
-    let report_dir = args.iter().position(|a| a == "--report")
-        .and_then(|i| args.get(i+1)).cloned()
-        .unwrap_or_else(|| format!("{}/report", domain));
+async fn main() -> Result<()> {
+    let mut args = Args::parse();
 
-    // 1) Скан (твой прежний код — теперь в библиотечной функции)
-    let paths = run_scan(domain).await?;
-    println!("Готово. Все результаты в папке: {}", paths.base.display());
+    // РЕЖИМ 1: только инференс по папке (--images)
+    if let Some(images_dir) = args.images.clone() {
+        let out_dir = args.report.clone()
+            .unwrap_or_else(|| images_dir.join("report"));
+        fs::create_dir_all(&out_dir)
+            .map_err(|e| anyhow!("Не создать {}: {e}", out_dir.display()))?;
 
-    // 2) По желанию — анализ скриншотов Eyeballer ONNX
-    if analyze {
-        let images_dir = paths.screenshots_dir.clone();           // {domain}/screenshots
-        let out_dir = PathBuf::from(&report_dir);                 // {domain}/report (или то, что передал)
-        fs::create_dir_all(&out_dir)?;
+        // включаем analyze "по умолчанию" для этого режима
+        args.analyze = true;
 
-        // модель
-        let runner = EyeballerRunner::new(&model_path, Labels::eyeballer_default())?;
-        let (_csv, html) = runner.infer_to_csv_html(&images_dir, &out_dir, 32, "predictions.csv", None)?;
+        let runner = EyeballerRunner::new(&args.model, Labels::eyeballer_default())?;
+        let (_csv, html) = runner.infer_to_csv_html(
+            &images_dir, &out_dir, args.batch, "predictions.csv", None
+        )?;
         println!("Отчёт: {}", html.display());
 
-        if serve {
-            // поднимаем встроенный просмотрщик
-            EyeballerRunner::serve(&out_dir, 8000)?;
+        if args.serve {
+            println!("Сервер: http://127.0.0.1:{}/", args.port);
+            EyeballerRunner::serve(&out_dir, args.port)?;
+        }
+        return Ok(());
+    }
+
+    // РЕЖИМ 2: полный цикл — скан → (опц.) анализ
+    let domain = args.domain.as_deref().unwrap(); // гарантирован clap'ом
+    let paths = run_scan(domain).await.map_err(|e| anyhow!(e.to_string()))?;
+    println!("Скан завершён. Результаты: {}", paths.base.display());
+
+    if args.analyze {
+        let images_dir = paths.screenshots_dir.clone();
+        let out_dir = args.report.clone().unwrap_or_else(|| PathBuf::from(domain).join("report"));
+        fs::create_dir_all(&out_dir)
+            .map_err(|e| anyhow!("Не создать {}: {e}", out_dir.display()))?;
+
+        let runner = EyeballerRunner::new(&args.model, Labels::eyeballer_default())?;
+        let (_csv, html) = runner.infer_to_csv_html(
+            &images_dir, &out_dir, args.batch, "predictions.csv", None
+        )?;
+        println!("Отчёт: {}", html.display());
+
+        if args.serve {
+            println!("Сервер: http://127.0.0.1:{}/", args.port);
+            EyeballerRunner::serve(&out_dir, args.port)?;
         }
     }
 
