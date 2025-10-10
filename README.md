@@ -1,4 +1,6 @@
 ```bash 
+Модель (.onnx) попросить у автора 
+
 # 0) Установи Rust через rustup
 curl https://sh.rustup.rs -sSf | sh
 source "$HOME/.cargo/env"
