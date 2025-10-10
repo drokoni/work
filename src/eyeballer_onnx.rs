@@ -148,14 +148,17 @@ impl EyeballerRunner {
         csv_name: &str,
         html_template: Option<&str>,
     ) -> Result<(PathBuf, PathBuf)> {
-        fs::create_dir_all(out_dir)
-            .with_context(|| format!("mkdir -p {}", out_dir.display()))?;
+    fs::create_dir_all(out_dir)
+        .with_context(|| format!("mkdir -p {}", out_dir.display()))?;
 
     // CSV
         let csv_path = out_dir.join(csv_name);
         let mut w = Writer::from_path(&csv_path)
             .with_context(|| format!("open csv for write: {}", csv_path.display()))?;
-
+        
+        let images_out = out_dir.join("images");
+        fs::create_dir_all(&images_out)
+            .with_context(|| format!("mkdir -p {}", images_out.display()))?;
     // header
         let mut header = vec![
             "file".to_string(),
@@ -231,9 +234,22 @@ impl EyeballerRunner {
                 top_i = j;
             }
         }
+       
 
         // относительный путь для CSV
-        let rel = diff_paths(&p, images_dir).unwrap_or_else(|| p.clone());
+        //let rel = diff_paths(&p, out_dir).unwrap_or_else(|| p.clone());
+        let basename = p.file_name()
+            .map(|s| s.to_string_lossy().into_owned())
+            .unwrap_or_else(|| "image.png".into());
+        let rel = PathBuf::from("images").join(&basename);
+        let target_path = images_out.join(&basename);
+        if !target_path.is_file() {
+            // копия
+            if let Err(e) = fs::copy(&p, &target_path) {
+                eprintln!("warn: copy {} -> {} failed: {e}", p.display(), target_path.display());
+            }
+        }
+
         let mut row = vec![
             rel.to_string_lossy().to_string(),
             self.labels.0.get(top_i).cloned().unwrap_or_else(|| top_i.to_string()),
@@ -270,50 +286,90 @@ impl EyeballerRunner {
     Ok((csv_path, html_path))
 }
 
-    /// Простой HTTP-просмотр отчёта
-    pub fn serve(out_dir: &Path, port: u16) -> Result<()> {
-        use tiny_http::{Header, Response, Server};
+pub fn serve(out_dir: &Path, port: u16) -> Result<()> {
+    use tiny_http::{Header, Response, Server};
 
-        let server = Server::http(format!("127.0.0.1:{port}"))
-            .map_err(|e| anyhow!("Server::http: {e}"))?;
-        println!("Report: http://127.0.0.1:{port}/");
+    let server = Server::http(format!("127.0.0.1:{port}"))
+        .map_err(|e| anyhow!("Server::http: {e}"))?;
+    println!("Report: http://127.0.0.1:{port}/");
+    println!("Root:   {}", out_dir.display());
+    let parent = out_dir.parent().map(Path::to_path_buf);
 
-        for rq in server.incoming_requests() {
-            let url = rq.url().trim_start_matches('/');
-            let req_path = if url.is_empty() { "index.html" } else { url };
-            let fs_path = out_dir.join(req_path);
+    for rq in server.incoming_requests() {
+        let raw = rq.url(); // начинается с '/'
+        // отбрасываем query/fragment
+        let raw = raw.split('?').next().unwrap_or(raw);
+        let raw = raw.split('#').next().unwrap_or(raw);
 
-            let mut resp = if fs_path.is_file() {
-                match fs::read(&fs_path) {
-                    Ok(bytes) => Response::from_data(bytes),
-                    Err(e) => Response::from_string(format!("500: {e}\n")).with_status_code(500),
-                }
-            } else {
-                Response::from_string("404\n").with_status_code(404)
-            };
-
-            // Content-Type без unwrap
-            let mime = if req_path.ends_with(".html") {
-                Some("text/html")
-            } else if req_path.ends_with(".csv") {
-                Some("text/csv")
-            } else if req_path.ends_with(".js") {
-                Some("application/javascript")
-            } else if req_path.ends_with(".css") {
-                Some("text/css")
-            } else {
-                None
-            };
-
-            if let Some(m) = mime {
-                if let Ok(h) = Header::from_bytes("Content-Type", m) {
-                    resp.add_header(h);
-                }
-            }
-
-            let _ = rq.respond(resp);
+        // пустой путь или слеш в конце -> index.html
+        let mut req_path = raw.trim_start_matches('/').to_string();
+        if req_path.is_empty() || req_path.ends_with('/') {
+            req_path.push_str("index.html");
         }
-        Ok(())
+
+        // сворачиваем a/../b
+        while let Some(pos) = req_path.find("/../") {
+            if let Some(prev) = req_path[..pos].rfind('/') {
+                req_path.replace_range(prev..pos + 4, "");
+            } else {
+                req_path.replace_range(0..pos + 4, "");
+            }
+        }
+
+        // ../ -> искать в родителе отчёта
+        let fs_path = if req_path.starts_with("../") {
+            let mut rest = req_path.as_str();
+            while rest.starts_with("../") {
+                rest = &rest[3..];
+            }
+            if let Some(ref parent_dir) = parent {
+                parent_dir.join(rest)
+            } else {
+                out_dir.join(rest)
+            }
+        } else {
+            out_dir.join(&req_path)
+        };
+
+        let mut resp = if fs_path.is_file() {
+            match fs::read(&fs_path) {
+                Ok(bytes) => Response::from_data(bytes),
+                Err(e) => Response::from_string(format!("500: {e}\n")).with_status_code(500),
+            }
+        } else {
+            Response::from_string("404\n").with_status_code(404)
+        };
+
+        // Content-Type (включая картинки)
+        let mime = if req_path.ends_with(".html") {
+            Some("text/html")
+        } else if req_path.ends_with(".csv") {
+            Some("text/csv")
+        } else if req_path.ends_with(".js") {
+            Some("application/javascript")
+        } else if req_path.ends_with(".css") {
+            Some("text/css")
+        } else if req_path.ends_with(".png") {
+            Some("image/png")
+        } else if req_path.ends_with(".jpg") || req_path.ends_with(".jpeg") {
+            Some("image/jpeg")
+        } else if req_path.ends_with(".webp") {
+            Some("image/webp")
+        } else {
+            None
+        };
+        if let Some(m) = mime {
+            if let Ok(h) = Header::from_bytes("Content-Type", m) {
+                resp.add_header(h);
+            }
+        }
+
+        eprintln!("[{}] {} -> {}", rq.method(), raw, fs_path.display());
+        let _ = rq.respond(resp);
     }
+    Ok(())
+}
+
+        
 }
 
